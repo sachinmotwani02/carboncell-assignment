@@ -50,7 +50,7 @@ function App() {
 
         console.log('MetaMask wallet connected:', account);
         toast({
-          title: 'Wallet Connected',
+          title: 'Success! Wallet Connected',
           description: `Connected to MetaMask wallet: ${account}`,
         });
         console.log('after toast');
